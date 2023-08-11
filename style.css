@@ -1,0 +1,65 @@
+* {
+    box-sizing: border-box;
+}
+.body{
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    
+}
+.song{
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 0 7px rgb(126, 128, 139);
+    width: 300px;
+    height: 450px;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+   
+}
+.song:hover{
+    scale: 1.05;
+    
+}
+.song__button{
+    margin-top: auto;
+}
+.song__image-container
+{height: 250px;   
+}
+.song__image-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+button{
+   background-color: #1ed760;
+   color: aliceblue;
+   border: 0;
+   border-radius: 3px;
+   width: 130px;
+   height: 36px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 16px;
+}
+button:hover{
+    background-color: #1db954;
+}
+.text>p{
+    text-align: center;
+    font-style: italic;
+}
+.text>h3{
+    margin-top: 10px;
+}
+
